@@ -82,7 +82,7 @@ const Header = () => {
           <div className="">
             <h1>Trending Searches</h1>
           </div>
-          <div className="grid rows-4 w-[400px] gap-12">
+          <div className="grid grid-rows-4 w-[400px] gap-12">
             <h1>work from home</h1>
             <h1>No experience</h1>
             <h1>remote work</h1>
