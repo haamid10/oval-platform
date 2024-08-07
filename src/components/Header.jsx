@@ -4,6 +4,8 @@ import pattern from '../../public/images/ovalHeaderpattern.svg';
 import headerImage from '../../public/images/Header Image.png'
 import Image from 'next/image'
 
+import { FaArrowRightLong } from "react-icons/fa6";
+
 const Header = () => {
   return (
     <>
@@ -75,7 +77,7 @@ const Header = () => {
           <div className="mt-12 px-32 flex gap-12">
           <div className="">
             <h1>Trending Searches</h1>
-            <span className="underline text-orange-400">view more jobs</span>
+            <span className="underline text-orange-400 test-sm">view more jobs</span>
           </div>
           <div className="grid grid-cols-3   gap-2">
             <h1 className="bg-white text-[#64626A] p-1">work from home</h1>
@@ -89,8 +91,17 @@ const Header = () => {
           </div>
           
         </div>
-
     </div>
+    <div className="flex bg-white w-full h-auto p-32 justify-between items-center">
+          <h1 className=" text-2xl font-manrope text-[#B3B1B7]">How oval Works for you </h1>
+          <div className="flex gap-12">
+            <h2> <span>1</span> create Oval profile</h2>
+            <h2 className="flex gap-2 items-center"> <FaArrowRightLong/> <span className="text-orange-500 text-sm">2</span> find job you love</h2>
+            <h2> <span>3</span>get hires</h2>
+          </div>
+          <div>
+          </div>
+        </div>
 
 
     </>
