@@ -92,16 +92,16 @@ const Header = () => {
           
         </div>
     </div>
-    <div className="flex bg-white w-full h-auto p-32 justify-between items-center">
-          <h1 className=" text-2xl font-manrope text-[#B3B1B7]">How oval Works for you </h1>
+    <div className="flex bg-white w-full h-auto py-32 px-32 justify-between items-center gap-6">
+          <h1 className=" text-3xl font-manrope text-[#8E8C95] font-bold">How oval Works for you </h1>
           <div className="flex gap-12">
-            <h2> <span>1</span> create Oval profile</h2>
-            <h2 className="flex gap-2 items-center"> <FaArrowRightLong/> <span className="text-orange-500 text-sm">2</span> find job you love</h2>
-            <h2> <span>3</span>get hires</h2>
+            <h2 className="font-bold flex gap-4 text-lg items-center"> <span className=" text-[#FA6402] text-sm ">1</span> Create Oval profile</h2>
+            <h2 className="font-bold flex gap-6 items-center text-lg"> <FaArrowRightLong className="text-[#B3B1B7]"/> <span className=" text-[#FA6402] text-sm ">2</span> Find job you love</h2>
+            <h2 className="font-bold flex gap-6 items-center text-lg"> <FaArrowRightLong className="text-[#B3B1B7]"/> <span className=" text-[#FA6402] text-sm ">3</span> Get hired</h2>
           </div>
           <div>
           </div>
-        </div>
+    </div>
 
 
     </>
