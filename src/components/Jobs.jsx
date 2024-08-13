@@ -3,6 +3,8 @@ import Image from 'next/image'
 import adobe from "../../public/images/adobe.png";
 import location from "../../public/images/Shape.png"
 import time from "../../public/images/Group 23 Copy.png"
+import { CiLocationOn } from "react-icons/ci";
+import { CiTimer } from "react-icons/ci";
 
 
 const Jobs = () => {
@@ -19,6 +21,7 @@ const Jobs = () => {
       </div>
 
       <div className="px-32 py-12">
+        {/* card 1 */}
         <div className="mt-24 w-[280px] bg-white shadow-md border p-4 border-gray-200">
             <div className="flex justify-between items-center ">
                 <div className="flex gap-2 items-center">
@@ -30,11 +33,9 @@ const Jobs = () => {
             <h2 className="text-sm mt-6 font-bold ">Sales engineer,Application modernazation,
              Healthcare , Google Cloud </h2>
              <div className="flex gap-2 mt-12">
-                <h1 className="text-sm flex gap-2 items-center"><Image className="w-4 h-4" src={location} alt="location" />San Jose, CA</h1>
-                <h1 className="text-sm flex gap-2 items-center"><Image className="w-4 h-4" src={time} alt="location" />Full-time</h1>
+                <h1 className="text-sm flex gap-2 items-center"><CiLocationOn className=" text-[#76747a] "/> San Jose, CA</h1>
+                <h1 className="text-sm flex gap-2 items-center"> <CiTimer className=" text-[#76747a] "/> Full-time</h1>
              </div>
-            
-            
         </div>
       </div>
     </div>
